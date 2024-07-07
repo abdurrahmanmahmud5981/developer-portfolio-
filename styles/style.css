@@ -43,14 +43,17 @@ body {
 /* header */
 header {
   background: url("../assets/images/developer.png") top left no-repeat,
-    url("../assets/images/header_bg.png") bottom right no-repeat;
+  url("../assets/images/header_bg.png") bottom right no-repeat ;
 }
 /* Nav Styles */
 nav {
   display: flex;
   justify-content: space-between;
-  margin: 0px 200px;
-  padding-block: 100px;
+  /* margin: 0 0 0 120px; */
+  max-width: 1240px;
+  margin: 0 auto;
+  /* padding-block: 100px; */
+  padding-left: 100px;
 }
 .nav-title {
   font-weight: 800;
@@ -74,7 +77,12 @@ nav ul li a {
 .banner {
   display: flex;
   justify-content: space-between;
-  margin: 0 35px 0 200px;
+  /* margin: 0 0 0 120px; */
+  max-width: 1240px;
+  margin: 0 auto;
+ 
+  padding-left: 100px;
+
 }
 .banner-content {
   max-width: 580px;
@@ -89,6 +97,7 @@ nav ul li a {
 }
 .banner-profile-pic {
   width: 580px;
+  display: block;
 }
 
 /* main styles */
