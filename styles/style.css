@@ -26,6 +26,7 @@ body {
   border: none;
   border-radius: 5px;
   font-size: 20px;
+  cursor: pointer;
 }
 .section-title {
   font-size: 35px;
@@ -130,4 +131,59 @@ main section{
 
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
   background: rgb(255, 255, 255);
+}
+/* resume styles */
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.resume-column-title{
+    font-size: 36px;
+}
+.experience-title{
+    font-size: 24px;
+    margin-block: -10px;
+}
+.experience-sub-title{
+    font-size: 18px;
+    margin-block: 18px;
+  font-weight: 600;
+
+}
+.experience-description, .experience-sub-title{
+    color: #757575;
+}
+.resume hr{
+    margin-block: 30px;
+}
+.resume-btn{
+    margin-top: 50px;
+}
+/* footer styles */
+.footer-content{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 100px;
+    padding-block: 20px;
+}
+.footer-column{
+    width: 50%;
+}
+footer .socile-icon{
+    display: flex;
+    gap: 20px;
+}
+footer form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+footer input[type="text"], input[ type="email"], textarea{
+    padding:  20px 40px;
+    border: none;
+    border-radius: 5px;
+}
+input[type="submit"]{
+    align-self: flex-start;
 }
