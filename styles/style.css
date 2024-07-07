@@ -50,7 +50,7 @@ nav {
   display: flex;
   justify-content: space-between;
   margin: 0px 200px;
-  padding-block: 50px;
+  padding-block: 100px;
 }
 .nav-title {
   font-weight: 800;
